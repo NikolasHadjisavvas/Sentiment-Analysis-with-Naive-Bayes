@@ -1,0 +1,25 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 To run the classifier:\
+\
+1) python classifier.py\
+\
+2) You will then be asked to provide choice of scaling with the question \'91Do you want to use three scale?\'92\
+Type True if you want to use three scale or type False if you want to use 5 scale\
+\
+3) You will then be asked about your choice of model.\
+Options are : Enter 1 for using model1(all words as features) OR type 2 to use model2(only specific words as features)\
+\
+\
+IMPORTANT NOTES:\
+\
+Current version of the code runs the classification on the development set and prints evaluation metrics upon the completion of the execution.\
+\
+If you want to classify the test data, you will need to change line 219 , and enter \'93test_df\'94 instead of \'93dev_df\'94 to the classification method calling.\
+\
+Afterwards you will need to comment out the portion of the code from line 290 to line 303, since these lines run the evaluation using available true labels , which we don\'92t have for the test data.}
