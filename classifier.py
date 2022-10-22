@@ -1,3 +1,6 @@
+# AUTHORED BY: NICOLAS HADJISAVVAS
+# YEAR: 2021
+
 import pandas as pd
 import seaborn as sbs
 import re
